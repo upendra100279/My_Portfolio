@@ -2,7 +2,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home'
 import Projects from './components/Projects';
 import About from './components/About';
-import Experiance from './components/Experience';
+import Experience from './components/Experience'; // fixed import
 import Footer from './components/Footer'
 import Contact from './components/Contact';
 import { Toaster } from 'react-hot-toast';
@@ -14,7 +14,7 @@ const App = () => {
        <Home />
        <About />
        <Projects />
-       <Experiance/>
+       <Experience /> {/* fixed usage */}
        <Contact />
        <Footer/>
      </div>

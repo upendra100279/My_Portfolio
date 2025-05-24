@@ -11,7 +11,7 @@ import ceerasLogo from "../assets/ceeras.png";
 import gravitonLogo from "../assets/graviton.png";
 import pepcoding from "../assets/pepcoding-logo.png";
 
-function Experiance() {
+function Experience() {
   const cardItem = [
     { id: 1, logo: html, name: "HTML" },
     { id: 2, logo: css, name: "CSS" },
@@ -63,7 +63,7 @@ function Experiance() {
 
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 p-10 rounded-lg shadow-2xl">
@@ -127,4 +127,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default Experience;
