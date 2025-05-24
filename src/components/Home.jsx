@@ -96,10 +96,10 @@ function Home() {
             {/* Right Section */}
             <div className="md:w-1/2 md:ml-16 md:mt-20 mt-8 order-1 flex justify-center">
               <div className="relative group w-[300px] h-[300px] md:w-[450px] md:h-[450px] flex items-center justify-center">
-                <span className="absolute inset-0 rounded-full border-8 border-transparent group-hover:animate-spin-border bg-gradient-to-tr from-teal-500 via-purple-700 to-blue-600 group-hover:border-teal-400 transition-all duration-1000 z-0"></span>
+                <span className="absolute inset-0 rounded-full border-9 border-transparent group-hover:animate-spin-border bg-gradient-to-tr from-teal-500 via-purple-700 to-blue-600 group-hover:border-teal-400 transition-all duration-1000 z-0"></span>
                 <img
                   src={pic}
-                  className="rounded-full w-[280px] h-[280px] md:w-[420px] md:h-[420px] shadow-xl relative z-10 bg-gray-900/80 backdrop-blur-lg border-4 border-gray-700"
+                  className="rounded-full w-[280px] h-[280px] md:w-[420px] md:h-[420px] shadow-xl relative z-10 bg-gray-900/80 backdrop-blur-lg border-1 border-gray-700"
                   alt="Profile"
                 />
               </div>
